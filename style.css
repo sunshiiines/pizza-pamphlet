@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(155, 145, 211);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.small_pizza {
+    background-color: rgb(174, 250, 174);
+    flex: 1;
+}
+
+.medium_pizza {
+    background-color: rgb(247, 198, 107);
+    flex: 1;
+}  
+
+.large_pizza {
+    background-color: rgb(212, 73, 73);
+    flex: 1;
+}
+
+.contacts {
+    background-color: rgb(133, 120, 120);
+}
+
+.pizza {
+    border: 2px solid grey;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 1em;
+    
+}
+
+@media (min-width: 960px) {
+
+}
+
+.pizzas {
+    display: flex;
+}
