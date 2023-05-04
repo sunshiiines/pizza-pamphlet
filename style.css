@@ -31,9 +31,8 @@ body {
 }
 
 @media (min-width: 960px) {
-
+    .pizzas {
+        display: flex;
+    }
 }
 
-.pizzas {
-    display: flex;
-}
